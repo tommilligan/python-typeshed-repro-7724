@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-mypy minimal.py
+rm -rf .mypy_cache && mypy minimal.py
